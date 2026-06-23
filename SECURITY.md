@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability, please send an email to security@example.com (replace with your actual email). We will respond as soon as possible.
+If you discover a security vulnerability, please send an email to sonivinit54@gmail.com. We will respond as soon as possible.
 
 Please include:
 - Description of the vulnerability
