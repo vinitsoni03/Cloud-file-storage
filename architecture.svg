@@ -1,0 +1,153 @@
+<svg width="1400" height="700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="14" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <filter id="primaryShadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#10B981" flood-opacity="0.15"/>
+    </filter>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="700" fill="url(#bg)"/>
+
+  <text x="700" y="85" text-anchor="middle" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="40" font-weight="700" fill="#0F172A">
+    Cloud-Native Serverless File Storage
+  </text>
+  <text x="700" y="130" text-anchor="middle" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="18" font-weight="500" fill="#64748B">
+    Secure, scalable file upload, storage, and retrieval service
+  </text>
+
+  <rect x="90" y="305" width="1220" height="3" rx="1.5" fill="#E2E8F0"/>
+
+  <g transform="translate(90, 165)">
+    <rect width="260" height="280" rx="16" ry="16" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="260" height="65" rx="16" ry="16" fill="#0284C7"/>
+    <text x="130" y="42" text-anchor="middle" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">
+      Client
+    </text>
+    <g transform="translate(30, 95)">
+      <circle cx="0" cy="10" r="4" fill="#0284C7"/>
+      <text x="16" y="15" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="500" fill="#334155">End Users</text>
+      <circle cx="0" cy="55" r="4" fill="#0284C7"/>
+      <text x="16" y="60" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="500" fill="#334155">Web Applications</text>
+      <circle cx="0" cy="100" r="4" fill="#0284C7"/>
+      <text x="16" y="105" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="500" fill="#334155">Mobile Clients</text>
+      <circle cx="0" cy="145" r="4" fill="#0284C7"/>
+      <text x="16" y="150" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="500" fill="#334155">Third-party APIs</text>
+    </g>
+  </g>
+
+  <g transform="translate(370, 300)">
+    <circle cx="0" cy="0" r="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3"/>
+    <circle cx="0" cy="0" r="4" fill="#0284C7"/>
+    <line x1="8" y1="0" x2="45" y2="0" stroke="#94A3B8" stroke-width="3"/>
+    <path d="M45 -6 L58 0 L45 6" fill="#94A3B8"/>
+  </g>
+
+  <g transform="translate(385, 165)">
+    <rect width="260" height="280" rx="16" ry="16" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="260" height="65" rx="16" ry="16" fill="#0F172A"/>
+    <text x="130" y="42" text-anchor="middle" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">
+      Frontend
+    </text>
+    <g transform="translate(30, 95)">
+      <circle cx="0" cy="10" r="4" fill="#0F172A"/>
+      <text x="16" y="15" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="500" fill="#334155">React / TypeScript</text>
+      <circle cx="0" cy="55" r="4" fill="#0F172A"/>
+      <text x="16" y="60" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="500" fill="#334155">User Interface</text>
+      <circle cx="0" cy="100" r="4" fill="#0F172A"/>
+      <text x="16" y="105" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="500" fill="#334155">File Upload UI</text>
+      <circle cx="0" cy="145" r="4" fill="#0F172A"/>
+      <text x="16" y="150" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="500" fill="#334155">Responsive Design</text>
+    </g>
+  </g>
+
+  <g transform="translate(665, 300)">
+    <circle cx="0" cy="0" r="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3"/>
+    <circle cx="0" cy="0" r="4" fill="#0F172A"/>
+    <line x1="8" y1="0" x2="45" y2="0" stroke="#94A3B8" stroke-width="3"/>
+    <path d="M45 -6 L58 0 L45 6" fill="#94A3B8"/>
+  </g>
+
+  <g transform="translate(680, 145)">
+    <rect width="260" height="320" rx="16" ry="16" fill="#FFFFFF" stroke="#10B981" stroke-width="4" filter="url(#primaryShadow)"/>
+    <rect x="0" y="0" width="260" height="65" rx="16" ry="16" fill="url(#primaryGrad)"/>
+    <text x="130" y="42" text-anchor="middle" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">
+      Compute
+    </text>
+    <g transform="translate(30, 95)">
+      <circle cx="0" cy="10" r="4" fill="#059669"/>
+      <text x="16" y="15" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="500" fill="#334155">AWS Lambda</text>
+      <circle cx="0" cy="55" r="4" fill="#059669"/>
+      <text x="16" y="60" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="500" fill="#334155">Serverless Functions</text>
+      <circle cx="0" cy="100" r="4" fill="#059669"/>
+      <text x="16" y="105" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="500" fill="#334155">Upload / Retrieve</text>
+      <circle cx="0" cy="145" r="4" fill="#059669"/>
+      <text x="16" y="150" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="500" fill="#334155">Delete / Share</text>
+      <circle cx="0" cy="190" r="4" fill="#059669"/>
+      <text x="16" y="195" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="500" fill="#334155">Pre-signed URLs</text>
+    </g>
+  </g>
+
+  <g transform="translate(960, 300)">
+    <circle cx="0" cy="0" r="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3"/>
+    <circle cx="0" cy="0" r="4" fill="#059669"/>
+    <line x1="8" y1="0" x2="45" y2="0" stroke="#94A3B8" stroke-width="3"/>
+    <path d="M45 -6 L58 0 L45 6" fill="#94A3B8"/>
+  </g>
+
+  <g transform="translate(975, 165)">
+    <rect width="260" height="280" rx="16" ry="16" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="260" height="65" rx="16" ry="16" fill="#7FBA00"/>
+    <text x="130" y="42" text-anchor="middle" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">
+      Storage
+    </text>
+    <g transform="translate(30, 95)">
+      <circle cx="0" cy="10" r="4" fill="#7FBA00"/>
+      <text x="16" y="15" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="500" fill="#334155">Amazon S3</text>
+      <circle cx="0" cy="55" r="4" fill="#7FBA00"/>
+      <text x="16" y="60" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="500" fill="#334155">File / Object Storage</text>
+      <circle cx="0" cy="100" r="4" fill="#7FBA00"/>
+      <text x="16" y="105" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="500" fill="#334155">Versioning</text>
+      <circle cx="0" cy="145" r="4" fill="#7FBA00"/>
+      <text x="16" y="150" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="500" fill="#334155">Lifecycle Policies</text>
+    </g>
+  </g>
+
+  <g transform="translate(1105, 450)">
+    <circle cx="0" cy="0" r="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3"/>
+    <circle cx="0" cy="0" r="4" fill="#7FBA00"/>
+    <line x1="0" y1="8" x2="0" y2="45" stroke="#94A3B8" stroke-width="3"/>
+    <path d="M-6 45 L0 58 L6 45" fill="#94A3B8"/>
+  </g>
+
+  <g transform="translate(90, 500)">
+    <rect width="1220" height="170" rx="20" ry="20" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="1220" height="70" rx="20" ry="20" fill="#7C3AED"/>
+    <text x="610" y="45" text-anchor="middle" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">
+      Core Services
+    </text>
+    <g transform="translate(50, 95)">
+      <circle cx="0" cy="10" r="4" fill="#7C3AED"/>
+      <text x="16" y="15" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="17" font-weight="500" fill="#334155">AWS IAM (Security)</text>
+      <circle cx="0" cy="50" r="4" fill="#7C3AED"/>
+      <text x="16" y="55" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="17" font-weight="500" fill="#334155">Amazon CloudWatch</text>
+      <circle cx="280" cy="10" r="4" fill="#7C3AED"/>
+      <text x="296" y="15" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="17" font-weight="500" fill="#334155">API Gateway</text>
+      <circle cx="280" cy="50" r="4" fill="#7C3AED"/>
+      <text x="296" y="55" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="17" font-weight="500" fill="#334155">Infrastructure as Code</text>
+      <circle cx="560" cy="10" r="4" fill="#7C3AED"/>
+      <text x="576" y="15" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="17" font-weight="500" fill="#334155">CI/CD: GitHub Actions</text>
+      <circle cx="560" cy="50" r="4" fill="#7C3AED"/>
+      <text x="576" y="55" font-family="'Inter', 'SF Pro Display', 'Segoe UI', sans-serif" font-size="17" font-weight="500" fill="#334155">Environments: Dev/Staging/Prod</text>
+    </g>
+  </g>
+</svg>
