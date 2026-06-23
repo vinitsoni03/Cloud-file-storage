@@ -15,5 +15,7 @@
 *.jpg binary
 *.jpeg binary
 *.gif binary
-*.svg binary
 *.zip binary
+
+# SVG files are text (XML)
+*.svg text
